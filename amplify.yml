@@ -8,7 +8,7 @@ frontend:
         - tar -C $HOME/bin -xzf go1.24.2.linux-amd64.tar.gz
         - echo 'export PATH=$PATH:$HOME/bin/go/bin' >> ~/.bashrc
         - source ~/.bashrc
-        - npm ci
+        - npm install
     build:
       commands:
         - source ~/.bashrc

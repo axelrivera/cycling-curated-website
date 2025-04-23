@@ -1,0 +1,45 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row gx-5">
+        <!-- blog posts -->
+        <div class="lg:col-8">
+          <div class="row">
+            {{ $posts := where .Site.RegularPages "Section" "blog" }}
+            {{ range $posts.GroupByDate "2006" }}
+            <div class="year-container mb-8">
+              <h2 class="text-2xl font-semibold mb-4 pb-2">{{ .Key }}</h2>
+
+              {{ range .Pages.GroupByDate "January" }}
+              <div class="month-container mb-6">
+                <h3 class="text-xl font-medium mb-3">{{ .Key }}</h3>
+
+                <ul class="space-y-4 pl-2">
+                  {{ range .Pages }}
+                  <li class="post-item">
+                    <article class="pb-4">
+                      <a href="{{ .RelPermalink }}" class="block text-lg font-medium">
+                        {{ .Title }}
+                      </a>
+                      <div class="mt-1 text-sm">
+                        {{ with .Params.author }}
+                        <span class="mr-2">By {{ . }}</span>
+                        {{ end }}
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                      </div>
+                    </article>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

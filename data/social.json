@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "email",
+      "icon": "far fa-envelope",
+      "link": "mailto:hello@cyclingcurated.com"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/cyclingcurated"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/cycling.curated"
+    },
+    {
+      "name": "threads",
+      "icon": "fab fa-threads",
+      "link": "https://www.threads.net/@cycling.curated"
+    }
+  ]
+}

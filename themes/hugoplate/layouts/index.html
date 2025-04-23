@@ -78,44 +78,6 @@
   {{ end }}
   <!-- /Features -->
 
-  <!-- Recent Blog Posts -->
-  {{ $recent := .Site.RegularPages.ByDate.Reverse | first 3 }}
-  {{ with $recent }}
-  <section class="section">
-      <div class="container">
-      <div class="row">
-          <!-- Header + description -->
-          <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-            <h2 class="mb-4">
-              Recent Blog Posts
-            </h2>
-            <p>
-              Catch up on the most recent posts below, or visit the blog to browse all articles.
-            </p>
-          </div>
-      </div>
-      <!-- Post cards -->
-      <div class="row">
-          {{ range . }}
-          <div class="lg:col-4 md:col-6 mb-14">
-              {{ partial "components/blog-card" . }}
-          </div>
-          {{ end }}
-      </div>
-      <!-- See all posts button -->
-      <div class="row">
-        <div class="col-12 text-center">
-          <a href="{{ `blog` | relURL }}" class="btn btn-primary mt-6">
-            View All Posts
-            <i class="fa fa-arrow-right pl-2"></i>
-          </a>
-        </div>
-      </div>
-      </div>
-  </section>
-  {{ end }}
-  <!-- /Recent Blog Posts -->
-
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}

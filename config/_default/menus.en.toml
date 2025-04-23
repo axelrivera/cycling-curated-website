@@ -1,0 +1,53 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Newsletter"
+url = "newsletter"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 3
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 5
+
+# footer menu
+[[footer]]
+name = "Newsletter"
+url = "newsletter"
+weight = 1
+
+[[footer]]
+name = "Blog"
+url = "blog"
+weight = 2
+
+[[footer]]
+name = "About"
+url = "about"
+weight = 3
+
+[[footer]]
+name = "Archive"
+url = "archive"
+weight = 4
+
+# [[footer]]
+# name = "Elements"
+# url = "/elements"
+# weight = 2
+
+# [[footer]]
+# name = "Privacy Policy"
+# url = "/privacy-policy"
+# weight = 3

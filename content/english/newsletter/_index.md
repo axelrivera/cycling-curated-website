@@ -17,4 +17,4 @@ Whether you're a weekend rider, tech nerd, or just someone who loves the sport, 
 
 No spam. No filler. Just the good stuff, once a week.
 
-👉 [Browse past issues](https://cyclingcurated.beehiiv.com/) to see what you’ve missed.
+👉 [Browse past issues](https://newsletter.cyclingcurated.com/) to see what you’ve missed.

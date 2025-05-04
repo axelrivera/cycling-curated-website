@@ -63,3 +63,5 @@ Eat real food. Drink enough water. Recover like it matters. Repeat.
 That’s it. That’s the secret sauce.
 
 Ride well, eat well, and don’t let a nutrition myth keep you from enjoying the ride.
+
+[_Image by freepik_](https://www.freepik.com/free-photo/man-cycling-outdoors-with-his-bike_32522208.htm#fromView=search&page=1&position=3&uuid=22489646-dd55-4eaa-bda9-94972a9e9e87&query=cycling+drinking)

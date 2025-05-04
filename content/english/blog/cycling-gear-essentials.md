@@ -53,3 +53,5 @@ Let’s kill a myth: more padding ≠ more comfort. What matters is fit. Everyon
 You don’t need to blow your paycheck to get started. Most of this gear is about comfort, safety, and keeping you riding consistently—not looking pro. Build your setup over time. Borrow where you can. Upgrade when it makes sense. But always start with the basics that make every ride better.
 
 And remember: The best gear is the one you actually use.
+
+[_Image by macrovector on Freepik_](https://www.freepik.com/free-vector/realistic-bicycle-cycling-accessories-set-isolated-vector-illustration_63440300.htm#fromView=search&page=1&position=2&uuid=4741a2c2-7838-4a7c-ad48-5fc6fb66efdd&query=cycling+gear)
